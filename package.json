@@ -1,0 +1,28 @@
+{
+  "name": "kunuznews",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000k\u0000u\u0000n\u0000u\u0000z\u0000n\u0000e\u0000w\u0000s\u0000a\u0000p\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xumoyun-fullStack/kunuznewsapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xumoyun-fullStack/kunuznewsapi/issues"
+  },
+  "homepage": "https://github.com/xumoyun-fullStack/kunuznewsapi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "rss-parser": "^3.12.0"
+  }
+}
